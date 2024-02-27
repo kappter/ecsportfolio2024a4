@@ -35,8 +35,7 @@ margin: 0px;
 float: left;
 width: 100%;
 text-align: left;
-padding-right: 15px;
-border-right: 5px;
+padding: 20px; /* Adjust this value to set the desired space around the content */
 box-sizing: border-box;
 }
 .footer {
