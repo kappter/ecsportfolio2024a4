@@ -37,6 +37,7 @@ width: 100%;
 text-align: left;
 padding: 20px; /* Adjust this value to set the desired space around the content */
 box-sizing: border-box;
+  position: relative;
 }
 .footer {
 background: #777777;
@@ -54,4 +55,10 @@ a:visited {
 }
 a:hover, a:active, a:focus { 
      text-decoration: underline;
+}
+.image {
+    position: absolute; /* Position the image relative to the .content div */
+    top: 0; /* Align the image to the top */
+    right: 0; /* Align the image to the right */
+    /* Add any other styles for your image */
 }
